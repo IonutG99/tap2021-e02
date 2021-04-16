@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tap2021E02.Console", "Tap2021E02.Console\Tap2021E02.Console.csproj", "{76F9A714-69E8-4133-ABDD-527F35F718AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tap2021E02.Console", "Tap2021E02.Console\Tap2021E02.Console.csproj", "{76F9A714-69E8-4133-ABDD-527F35F718AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tap2021E02.Sample", "..\Tap2021E02.Sample\Tap2021E02.Sample.csproj", "{0EB73043-2ADE-48D4-91C0-110C82A05130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tap2021E02.SampleEntities", "..\Tap2021E02.Sample\Tap2021E02.SampleEntities.csproj", "{0EB73043-2ADE-48D4-91C0-110C82A05130}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tap2021E02.RepositoryPattern", "..\Tap2021E02.RepositoryPattern\Tap2021E02.RepositoryPattern.csproj", "{C08E4D04-8383-45A9-8D0C-B2E4D645518D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tap2021E02.RepositoryPattern", "..\Tap2021E02.RepositoryPattern\Tap2021E02.RepositoryPattern.csproj", "{C08E4D04-8383-45A9-8D0C-B2E4D645518D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tap2021E02.Extensions", "..\Tap2021E02.Extensions\Tap2021E02.Extensions.csproj", "{DAB4A4DF-D513-4DE7-B241-CE388053F96F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tap2021E02.Tests", "..\Tap2021E02.Tests\Tap2021E02.Tests.csproj", "{554F84B8-EF28-4B9D-87F6-F626602195D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{C08E4D04-8383-45A9-8D0C-B2E4D645518D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C08E4D04-8383-45A9-8D0C-B2E4D645518D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C08E4D04-8383-45A9-8D0C-B2E4D645518D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB4A4DF-D513-4DE7-B241-CE388053F96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB4A4DF-D513-4DE7-B241-CE388053F96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB4A4DF-D513-4DE7-B241-CE388053F96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB4A4DF-D513-4DE7-B241-CE388053F96F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554F84B8-EF28-4B9D-87F6-F626602195D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554F84B8-EF28-4B9D-87F6-F626602195D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554F84B8-EF28-4B9D-87F6-F626602195D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554F84B8-EF28-4B9D-87F6-F626602195D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

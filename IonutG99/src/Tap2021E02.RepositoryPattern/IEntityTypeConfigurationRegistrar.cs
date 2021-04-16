@@ -1,9 +1,9 @@
 ﻿
-
+using Microsoft.EntityFrameworkCore;
 
 namespace Tap2021E02.RepositoryPattern
 {
-    interface IEntityTypeConfigurationRegistrar
+    public interface IEntityTypeConfigurationRegistrar
     {
         void ApplyConfiguration(ModelBuilder modelBuilder);
     }

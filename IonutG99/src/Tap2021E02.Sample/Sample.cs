@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Tap2021E02.Extensions;
 
-namespace Tap2021E02.Sample
+namespace Tap2021E02.SampleEntities
 {
-    public abstract class Sample:ISample
+    public class Sample:ISample
     {
        public Sample( Guid id, string dnaseq,DateTime data)
         {

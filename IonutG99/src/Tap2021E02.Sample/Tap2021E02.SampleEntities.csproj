@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tap2021E02.Console\Tap2021E02.Console\Tap2021E02.Console.csproj" />
+    <ProjectReference Include="..\Tap2021E02.Extensions\Tap2021E02.Extensions.csproj" />
   </ItemGroup>
 
 </Project>

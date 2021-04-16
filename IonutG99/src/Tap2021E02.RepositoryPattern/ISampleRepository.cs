@@ -11,5 +11,7 @@ namespace Tap2021E02.RepositoryPattern
         void Update<TEntity>(TEntity entity) where TEntity : class;
 
         TEntity Insert<TEntity>(TEntity entity) where TEntity : class;
+
+        void Save();
     }
 }
